@@ -14,5 +14,6 @@ public class CountWordFrequency {
     //             .forEach(System.out::println);
         Map<String, Long> map = Arrays.stream(str.split(" ")).collect(Collectors.groupingBy(word -> word, Collectors.counting()));
         map.forEach((word, count) -> System.out.println(word + ": " + count));
+        System.out.println("Other way to do it: " + map);
     }
 }
