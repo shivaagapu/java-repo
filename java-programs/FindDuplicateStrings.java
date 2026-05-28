@@ -1,7 +1,7 @@
 import java.util.*;
 public class FindDuplicateStrings {
     public static void main(String[] args) {
-        String name = "Hello World Hello";
+        //String name = "Hello World Hello";
         // char[] chars = name.toCharArray();
         // for (char c : chars) {
         //     int count = 0;
