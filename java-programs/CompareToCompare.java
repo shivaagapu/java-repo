@@ -26,6 +26,14 @@ public class CompareToCompare {
         for (Employee emp : employees) {
             System.out.println(emp);
         }
+
+        // Using streams to sort by salary
+        System.out.println("Employees sorted by salary using streams:");
+        employees.sort((e1, e2) -> Double.compare(e1.getSalary(), e2.getSalary()));
+        System.out.println("Employees sorted by salary using streams:");
+        for (Employee emp : employees) {
+            System.out.println(emp);
+        }
     }
 }
 
