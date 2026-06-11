@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: auth-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/banking_app?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  security:
+    user:
+      name: admin
+      password: admin123
+
+server:
+  port: 8089
+  servlet:
+    context-path: /auth
+
+jwt:
+  secret: change-me-please-use-a-strong-secret
+  expiration-ms: 86400000
