@@ -1,4 +1,6 @@
-spring:
+mysql> create database banking-app-new;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-app-new' at line 1mysql> create database banking-app-new;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-app-new' at line 1spring:
   application:
     name: auth-service
 
