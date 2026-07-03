@@ -1,0 +1,12 @@
+.idea
+*.iml
+.git
+**/target/classes
+**/target/generated-sources
+**/target/generated-test-sources
+**/target/test-classes
+**/.mvn
+**/node_modules
+README.md
+docs
+postman_collection
